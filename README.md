@@ -15,7 +15,7 @@ The program works like a normal contact list that we use in our phone except for
 ### Code details:-
 - The program/code is written in Python.
 - The GUI is made using Tkinter, and the backend is Python again, which is connected to a database.
-- The database is made using MySQLite.
+- The database is made using SQLite3.
 - The database is created when you run the code. Database is created in the 'try' block. If the database table already exists, then the program starts executing from 'finally' block. This 'finally' block has the GUI and rest of the code(modules,queries,etc.)
 
 ### Thank you very much for going through the file. Your feedback regarding the code would be appreciated. Thank you once again. Stay awesome, people
