@@ -11,7 +11,7 @@ except:
     print("Diary already exists")
     
 finally:
-        
+    #Function to save a contact  
     def save(n,p):
         stmt='insert into Diary values(?,?)'
         cur.execute(stmt,(n.get(),p.get()))
